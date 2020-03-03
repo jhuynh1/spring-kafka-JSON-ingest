@@ -8,5 +8,4 @@ To run this sample application
 To hit the endpoint: 
 curl localhost:8080/ingest/github/{topicName}
 
-Uses localhost:9092 as the kafka broker location
-Will auto create a topic if needed
+Uses localhost:9092 as the kafka broker location and will auto create a topic if it's not already created
